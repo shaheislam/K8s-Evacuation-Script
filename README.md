@@ -6,10 +6,10 @@ A script designed to make Kubernetes clusters more resilient, automating the cor
 In the case of an AZ failure, I have implemented a Python script that can be executed from the local machine to mitigate the effects and run an evacuation of the affected availability zone, through the cordoning and draining of nodes sitting within the affected AZ.
 
 Overview
-1 - Cluster Capacity Check (informational)
-2a - Evacuation
-2b - Restoration
-3 - Node Recycle
+1. - Cluster Capacity Check (informational)
+2. - Evacuation
+3. - Restoration
+4. - Node Recycle
 
 ### Overview
 
