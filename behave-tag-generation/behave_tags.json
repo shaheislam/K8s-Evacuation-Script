@@ -1,0 +1,29 @@
+{
+  "infra": {
+    "infra": 1,
+    "vpc_cni": "feature_eks_custom_vpc_cni"
+  },
+  "apps": {
+    "rbac": 1,
+    "sc": 1,
+    "psp": 1,
+    "calico": 1,
+    "default_configs": 1,
+    "cert_manager": 1,
+    "beats": "feature_beats",
+    "twistlock_defender": "feature_twistlock_defender",
+    "gatekeeper": "feature_gatekeeper",
+    "efs_sc": "feature_efs_csi_driver",
+    "ingress": "feature_ingress_nginx",
+    "external_dns": "feature_external_dns",
+    "metrics_server": "feature_metrics_server",
+    "monitoring": "feature_monitoring",
+    "cluster_autoscaler": "feature_cluster_autoscaler",
+    "cloudability": "feature_cloudability_metrics_agent",
+    "kmaas_vault": "feature_kmaas_vault_auth",
+    "ingress_alb": "feature_ingress_awslb"
+  },
+  "performance-testing": {
+    "dns_perf": "feature_dns_performance_testing"
+  }
+}
